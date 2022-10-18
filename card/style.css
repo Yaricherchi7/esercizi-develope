@@ -1,0 +1,39 @@
+:root {
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;   
+}
+
+.card-image {
+    border-bottom: 1px solid black;    
+}
+
+img {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+   border-bottom: 1px solid black; 
+   padding-left: 10px;
+}
+
+.card-list p {
+    border-bottom: 1px solid black; 
+    padding-left: 10px; 
+}
+
+.card-footer {
+    display: flex;
+    padding-left: 10px;
+    
+}
+
+.card-footer a {
+    padding-right: 50px;
+}
