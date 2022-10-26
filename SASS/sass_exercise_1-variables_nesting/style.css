@@ -1,0 +1,30 @@
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  -webkit-text-decoration: 1px underline blue;
+          text-decoration: 1px underline blue;
+}
+
+article {
+  border: 1px solid green;
+  padding: 10px;
+}
+
+div {
+  padding: 10px;
+  border: 1px solid red;
+}
+
+p {
+  text-align: center;
+  color: blue;
+}
+
+.red {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
