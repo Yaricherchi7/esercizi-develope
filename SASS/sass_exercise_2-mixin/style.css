@@ -1,0 +1,54 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 0;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  -webkit-text-decoration: 1px underline blue;
+          text-decoration: 1px underline blue;
+}
+
+div {
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.article-1 {
+  color: blue;
+  border: 1px solid green;
+  font-size: 1rem;
+  padding: 20px;
+}
+
+.article-2 {
+  color: red;
+  border: 1px solid green;
+  font-size: 1rem;
+  padding: 20px;
+}
+
+.article-3 {
+  color: blue;
+  border: 1px solid green;
+  font-size: 1rem;
+  padding: 20px;
+}
+
+.article-4 {
+  color: red;
+  border: 1px solid green;
+  font-size: 1rem;
+  padding: 20px;
+}
+
+.article-5 {
+  color: green;
+  border: 1px solid blue;
+  font-size: 24px;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+@use "sass:color";
+
+$color-primary: red;
+$color-secondary:blue;
+$color-tertiary: green;
+ 
+ section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 0;
+ }
+
+ h1 {
+    text-align: center;
+    color: $color-tertiary;
+    text-decoration: 1px underline $color-secondary;
+ }
+
+
+div {
+   padding: 10px;
+   border: 1px solid $color-primary;
+}
+
+
+@mixin article-card ($color, $border-color, $font-size) {
+    color: $color;
+    border:1px solid $border-color;
+    font-size: $font-size;
+    padding: 20px;
+
+}
+
+.article-1{
+   @include article-card (blue, green, 1rem);    
+}
+.article-2{
+   @include article-card (red, green, 1rem);    
+}
+.article-3{
+   @include article-card (blue, green, 1rem);    
+}
+.article-4{
+   @include article-card (red, green, 1rem);    
+}
+.article-5{
+   @include article-card (green, blue, 24px);    
+}
