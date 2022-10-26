@@ -1,0 +1,48 @@
+ html, body {
+    height: 100%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    width: 200px; 
+    height: 100%;
+    border: 2px solid rgb(150, 150, 150);
+    justify-content: flex-start;
+    
+    
+    
+}
+
+.logo-section {
+    border-bottom: 2px solid rgb(150, 150, 150);
+    align-content: center;
+      
+}
+
+ul {
+    list-style:none;
+    padding-left:0;
+    flex: 1;
+    
+    
+    
+}
+
+li {
+    border-bottom: 1px solid rgb(150, 150, 150);
+    margin: 20px 0 20px 0;
+    color: #2b2b2b;  
+}
+
+a:hover {
+    transition-delay: 0.3s;
+    color: #2b2bb1;  
+}
+
+.avatar-section { 
+display: flex;
+margin-top: auto;
+align-items: center;
+border-top: 2px solid rgb(150, 150, 150);
+}
