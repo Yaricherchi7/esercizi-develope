@@ -1,0 +1,49 @@
+@import "variables";
+@use "functions" as f;
+
+
+ 
+ section {
+     padding: f.rem(10);
+     &:first-of-type {
+         display: flex;
+     }
+ }
+
+ h1 {
+    text-align: center;
+    color: $color-seco;
+    text-decoration: 1px underline $color-secondary;
+ }
+
+
+div {
+   
+   border: $border $border-color;
+}
+
+
+@mixin article-card ($color, $border-color, $font-size : 1rem) {
+    color: $color;
+    border:1px solid $border-color;
+    font-size: $font-size;
+    padding: f(10);
+    text-align: center;
+
+}
+
+.article-1{
+   @include article-card (blue, green, );    
+}
+.article-2{
+   @include article-card (red, green, );    
+}
+.article-3{
+   @include article-card (blue, green, );    
+}
+.article-4{
+   @include article-card (red, green, );    
+}
+.article-5{
+   @include article-card (green, blue,f(24));    
+}
